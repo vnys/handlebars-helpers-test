@@ -20,7 +20,6 @@ var handlebars = require('handlebars');
 var fs = require('fs');
 var file = require('gulp-file');
 
-
 require('handlebars-helpers').register(handlebars, {
     marked: {
         smartypants: true
@@ -39,7 +38,7 @@ gulp.task('default', function() {
 ```
 
 ## Template
-```js
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
