@@ -44,7 +44,7 @@ gulp.task('default', function() {
 ```
 
 ## Template
-```js
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
