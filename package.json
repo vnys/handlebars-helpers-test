@@ -1,0 +1,12 @@
+{
+  "author": "Victor Nystad",
+  "version": "0.0.1",
+  "description": "How to use the handlebars-helpers module in a gulp-task",
+  "devDependencies": {
+    "handlebars": "~2.0.0-alpha.4",
+    "gulp": "~3.8.6",
+    "gulp-file": "~0.1.0",
+    "handlebars-helpers": "git://github.com/assemble/handlebars-helpers",
+    "grunt": "~0.4.5"
+  }
+}
