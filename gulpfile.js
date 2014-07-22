@@ -3,10 +3,12 @@ var handlebars = require('handlebars');
 var fs = require('fs');
 var file = require('gulp-file');
 
-
-require('handlebars-helpers').register(handlebars, {
-    marked: {
-        smartypants: true
+require('handlebars-helpers')({
+    Handlebars: handlebars,
+    options: {
+        marked: {
+            smartypants: true
+        }
     }
 });
 
