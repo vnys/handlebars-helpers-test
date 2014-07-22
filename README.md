@@ -1,7 +1,7 @@
 handlebars-helpers-test
 =======================
 
-Simple test which uses the handlebars-helpers module.
+Simple test which uses the [handlebars-helpers](https://github.com/assemble/handlebars-helpers) module.
 
 ## Usage
 
