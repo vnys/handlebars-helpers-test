@@ -79,8 +79,15 @@ gulp.task('default', function() {
 
     <p>Hi!</p>
 
-<h2 id="helper-test">helper-test</h2>
-<p><strong>This</strong> is <em>markdown</em> — with smartypants</p>
+<h2>
+  <a name="helper-test" class="anchor" href="#helper-test">
+    <span class="header-link"></span>
+  </a>helper-test
+</h2><p><strong>This</strong> is <em>markdown</em> — with smartypants</p>
+
+
+</body>
+</html>
 
 
 </body>
