@@ -37,6 +37,12 @@ gulp.task('default', function() {
 });
 ```
 
+Note: To use the default options, send in an empty object as the second parameter: 
+
+```js
+require('handlebars-helpers').register(handlebars, {});
+```
+
 ## Template
 ```html
 <!DOCTYPE html>
